@@ -8,7 +8,7 @@
 .all-bg{
     background-color: rgba(255, 255, 255, 1);
 }
-#primary-btn{
+.early-btn{
     width: 164px;
     height: 44px;
     padding: 12px 16px; 
@@ -148,7 +148,8 @@
     display: flex;
     gap: 24px; 
     justify-content: center;
-    margin-top: 44px; 
+    margin-top: 44px;
+    margin-bottom: 72px; 
     text-align: center;
 }
 .card{
@@ -194,4 +195,97 @@
     font-weight: 400;
     line-height: 20px;
     color: #627382; 
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    margin-bottom: 120px;
+}
+.solution-content{
+    margin: 120px 0px 120px 60px; 
+}
+.solution-content p{
+    width: 700px;
+    height: 40px; 
+    text-align: left; 
+    color: rgba(70, 145, 101, 1); 
+    font-weight: 500;
+    line-height: 19px;
+}
+.solution-content h2{
+    width: 700px;
+    height: 116px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #001931;
+    text-align: left;
+}
+.solution-content .paraL{
+    width: 700px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    text-align: left;
+}
+.bg{
+    background-color: rgba(247, 246, 242, 1);
+    padding: 80px 40px 80px 40px;
+}
+.checkList li{
+    list-style: none;
+    line-height: 33px;
+}
+.payment{
+    text-align: center;
+}
+.payment p{
+    margin: 16px 0px 24px 0px;  
+}
+.getAcces{
+    text-align: center;
+}
+.getAcces p{
+    margin: 16px 0px 24px 0px;
+}
+.early-btn{
+    width: 164px;
+    height: 44px;
+    padding: 12px 16px; 
+    font-size: 16px;
+    font-style: Semi Bold;
+    line-height: 19px;
+    border-radius: 8px;
+    border: none;
+    background-color: #30B868;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+footer{
+    max-width: 1600px;
+    height: 348px;
+    background-color: rgba(0, 25, 49, 1);
+} 
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer-container .social-icon i{
+    width: 20px;
+    height: 20px;
+    gap: 16px; 
+    color: black; 
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(247, 246, 242, 1);
+}
+footer p{
+    text-align: center;
+    margin: 30px; 
+    color: rgba(247, 246, 242, 1);
 }
